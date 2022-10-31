@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.menu h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    height: 60px;
+    width: 100%;
+}
+
+.title-pag h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: rgb(114, 32, 0);
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.main-box{
+    width: 100%;   
+    height: 100%;
+    background: rgb(114, 32, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-listagem{
+    margin: 15px 0px; 
+    height: 70%;
+    width: 85%;
+    background-color: white;
+    border: 2px solid #ff9900;
+    border-radius: 10px;
+}
+
+.container{
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+    height: 300px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ff9900;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.box h4{
+    text-transform: uppercase;
+    color: black;
+}
+
+.box img{
+    margin-top: 10px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    height: 25px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
